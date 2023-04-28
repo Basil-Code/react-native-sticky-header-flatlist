@@ -14,7 +14,7 @@ export default (props: StickyHeaderFlatlistProps) => {
 
   for (const i in props.data) {
     const row = props.data[i]
-    indict.push(data.length)
+    indict.push(data.length)fd sfdsfd sf
     data.push({...row, isStickyFlatListHeader: true})    
     data = data.concat(row[props.childrenKey || "children"])
   }
